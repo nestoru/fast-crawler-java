@@ -1,0 +1,7 @@
+# src/main/resources/application.yml
+logging:
+  level:
+    com.nestorurquiza.fastcrawler: ERROR
+    org.springframework: INFO
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{36} - %msg%n"
